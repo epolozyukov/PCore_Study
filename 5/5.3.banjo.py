@@ -4,9 +4,8 @@
 #The function takes a name as its only argument, and returns one of the following strings:
 
 def areYouPlayingBanjo(name):
-    if list(name)[0]=="R" or list(name)[0]=="r":
+    if name[0]=="R" or name[0]=="r":
         return name + " plays banjo" 
-    else:
-        return name + " does not play banjo"
+    return name + " does not play banjo"
 
 print(areYouPlayingBanjo('gick'))
