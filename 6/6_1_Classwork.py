@@ -41,7 +41,7 @@ print(square('circle',2))
 def square_2():
     num = int(input("To calculate the square, please put the number 1 - triangle, 2 - rect, 3 - circle:"))
     if num==1:
-        square_triangle()
+        return square_triangle()
 
 def square_triangle():
     a = float(input('You chose triangle, now put figure for a: '))
